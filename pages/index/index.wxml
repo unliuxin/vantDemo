@@ -1,0 +1,139 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="container_header">
+		<image mode="widthFix" src="../../components/vant/assts/images/home_header.jpg"></image>
+		<!--头部三个按钮-->
+		<view class="container_header_button">
+			<van-button round icon="coupon-o" type="info" size="small" color="#ffe9c4" bind:click="showCoupon">我的优惠券</van-button>
+			<van-button round icon="sign" type="info" size="small" color="#ffe9c4">我的预约</van-button>
+			<van-button round icon="phone-o" type="info" size="small" color="#ffe9c4">我的客服</van-button>
+		</view>
+	</view>
+	<!--装修层-->
+	<view class="decoration">
+		<image class="decoration_img" mode="widthFix" src="../../components/vant/assts/images/decoration.jpg"></image>
+		<text class="decoration_text">装修类优惠券</text>
+		<view class="decoration_box">
+			<van-row>
+				<van-col span="10" class="dec_col">
+					<image mode="widthFix" src="../../components/vant/assts/images/xiaolang.jpg"></image>
+					<view class="dec_text">
+						<text>￥6000</text>
+						<text>限议价后装修款\n每户限一张</text>
+						<van-button bindtap="butOnclick" custom-style="font-size: 20rpx;height: 20px;" color="#ff0000" round type="info" size="small">
+						立即领取</van-button>
+					</view>
+				</van-col>
+
+				<van-col span="10" class="dec_col">
+					<image mode="widthFix" src="../../components/vant/assts/images/xiaolang.jpg"></image>
+					<view class="dec_text">
+						<text>￥6000</text>
+						<text>限议价后装修款\n每户限一张</text>
+						<van-button bindtap="butOnclick" custom-style="font-size: 20rpx;height: 20px;" color="#ff0000" round type="info" size="small">立即领取</van-button>
+					</view>
+				</van-col>
+			</van-row>
+
+			<van-row>
+				<van-col span="10" class="dec_col">
+					<image mode="widthFix" src="../../components/vant/assts/images/xiaolang.jpg"></image>
+					<view class="dec_text">
+						<text>￥6000</text>
+						<text>限议价后装修款\n每户限一张</text>
+						<van-button bindtap="butOnclick" custom-style="font-size: 20rpx;height: 20px;" color="#ff0000" round type="info" size="small">立即领取</van-button>
+					</view>
+				</van-col>
+
+				<van-col span="10" class="dec_col">
+					<image mode="widthFix" src="../../components/vant/assts/images/xiaolang.jpg"></image>
+					<view class="dec_text">
+						<text>￥6000</text>
+						<text>限议价后装修款\n每户限一张</text>
+						<van-button bindtap="butOnclick" custom-style="font-size: 20rpx;height: 20px;" color="#ff0000" round type="info" size="small">立即领取</van-button>
+					</view>
+				</van-col>
+			</van-row>
+		</view>
+	</view>
+
+
+	<!--主材类型-->
+	<view class="material">
+		<image class="material_img" mode="widthFix" src="../../components/vant/assts/images/material.jpg"></image>
+		<text class="material_text">主材类优惠券</text>
+		<view class="material_box">
+			<view class="material_vancol">
+				<image mode="widthFix" src="../../components/vant/assts/images/suo.jpg"></image>
+				<view class="suo_dec">
+					<view class="suo_dec_strong"><text>￥100</text>/户</view>
+					<van-divider dashed />
+					<text class="suo_dec_text">限议价后全屋定制款/橱柜款/木门款/窗帘款/家品款 ( 爆款除外 )  </text>
+				</view>
+				<van-button custom-style="font-size: 20rpx;height: 20px;display: block;width: 40%;margin: 0 auto;" color="#ff0000" round type="info" size="small" bindtap="butOnclick">立即领取</van-button>
+			</view>
+			<view class="material_vancol">
+				<image mode="widthFix" src="../../components/vant/assts/images/suo.jpg"></image>
+				<view class="suo_dec">
+					<view class="suo_dec_strong"><text>￥100</text>/户</view>
+					<van-divider dashed />
+					<text class="suo_dec_text">限议价后全屋定制款/橱柜款/木门款/窗帘款/家品款 ( 爆款除外 )  </text>
+				</view>
+				<van-button custom-style="font-size: 20rpx;height: 20px;display: block;width: 40%;margin: 0 auto;" color="#ff0000" round type="info" size="small" bindtap="butOnclick">立即领取</van-button>
+			</view>
+
+			<view class="material_vancol">
+				<image mode="widthFix" src="../../components/vant/assts/images/suo.jpg"></image>
+				<view class="suo_dec">
+					<view class="suo_dec_strong"><text>￥100</text>/户</view>
+					<van-divider dashed />
+					<text class="suo_dec_text">限议价后全屋定制款/橱柜款/木门款/窗帘款/家品款 ( 爆款除外 )  </text>
+				</view>
+				<van-button custom-style="font-size: 20rpx;height: 20px;display: block;width: 40%;margin: 0 auto;" color="#ff0000" round type="info" size="small" bindtap="butOnclick">立即领取</van-button>
+			</view>
+			<view class="material_vancol">
+				<image mode="widthFix" src="../../components/vant/assts/images/suo.jpg"></image>
+				<view class="suo_dec">
+					<view class="suo_dec_strong"><text>￥100</text>/户</view>
+					<van-divider dashed />
+					<text class="suo_dec_text">限议价后全屋定制款/橱柜款/木门款/窗帘款/家品款 ( 爆款除外 )  </text>
+				</view>
+				<van-button custom-style="font-size: 20rpx;height: 20px;display: block;width: 40%;margin: 0 auto;" color="#ff0000" round type="info" size="small" bindtap="butOnclick">立即领取</van-button>
+			</view>
+		</view>
+	</view>
+
+	<view class="statement">
+		<image mode="widthFix" src="../../components/vant/assts/images/statement.jpg"></image>
+		<text class="statement_text">免责声明</text>
+		<view class="statement_des">
+			<text>1.活动时间:2019年10月24日00:00:00至2019年12月31日23:59:59/n</text>
+
+			<text>2.活动期间,同一用户每日累计只能参与一次活动,每天签到有机会获得签到奖励(奖励包括但不限于.../n</text>
+
+			<text>3.连续签到每日都有机会获得额外奖励(额外奖励包括但不限于额外京豆赠送等),额外奖励以签到页.../n</text>
+
+			<text>4.如出现不可抗力或情势变更的情况(包括但不限于重大灾害事件、活动受政府机关指令需要停止举办.../n</text>
+
+			<text>5.如用户以参与营销活动或使用营销工具所获得的优惠权益进行盈利或非法获利,或者京东Neu...</text>
+		</view>
+	</view>
+	<view class="container_bottom">
+		<text>活动规则疑问请联系客服</text>
+	</view>
+
+</view>
+
+
+
+<!--优惠券弹出层-->
+<van-popup show="{{ show }}" custom-style="height: 40%" position="bottom" closeable close-icon="cross" position="bottom" bind:close="onCloseCoupon">
+	<view class="popup_content">
+		<text class="myCoupon">我的优惠券</text>
+		<view class="popup_content_coupon">
+			<van-icon name="coupon" size="90rpx" />
+			<text>您还未领取过优惠券</text>
+		</view>
+	</view>
+</van-popup>
+

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-button": "../../components/vant/dist/button",
+    "van-icon": "../../components/vant/dist/icon",
+    "van-popup": "../../components/vant/dist/popup",
+    "van-row": "../../components/vant/dist/row",
+    "van-col": "../../components/vant/dist/col",
+    "van-divider": "../../components/vant/dist/divider/",
+    "van-toast": "../../components/vant/dist/toast"
+  }
+}

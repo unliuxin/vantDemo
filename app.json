@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffa019",
+    "navigationBarTitleText": "房信家居帮",
+    "navigationBarTextStyle":"white"
+  },
+
+  "sitemapLocation": "sitemap.json"
+}
